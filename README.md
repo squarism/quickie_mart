@@ -2,6 +2,8 @@ Quickie Mart
 ============
 A 20 minute Rails demo that I used as part of a "What is Ruby on Rails?" talk.  The store was not designed or developed from scratch in 20 minutes but serves as a Cooking Show style demo of what is possible in a very short amount of time.
 
+![Screen shot 1](/squarism/quickie_mart/raw/master/quickie_mart.png)
+
 ### Steps to build
 These steps are what it took to build this app.  You can checkout this app as a final product but this is intended to walk you through building this project, not starting with it.  All you should need is a Ruby/Rails dev environment and this README.
 
