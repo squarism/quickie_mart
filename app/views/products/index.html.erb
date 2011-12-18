@@ -1,0 +1,10 @@
+<h1>Store</h1>
+<table>
+<% @products.each do |product| %>
+  <tr>
+    <td><%= product.name %></td>
+    <td><%= number_to_currency product.price %></td>
+    <td><%= link_to 'Add to cart', :controller => 'carts', :action => 'add', :id => product %></td>
+  </tr>
+<% end %>
+</table>

@@ -1,0 +1,17 @@
+nes:
+  id: 1
+
+  name: Nintendo NES
+  price: 199.99
+
+
+zelda:
+  id: 2
+  name: The Legend of Zelda
+  price: 59.99
+
+
+mario3:
+  id: 3
+  name: Super Mario Bros. 3
+  price: 49.99

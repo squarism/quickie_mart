@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Store</title>
+  <%= stylesheet_link_tag    "application" %>
+  <%= javascript_include_tag "application" %>
+  <%= csrf_meta_tags %>
+</head>
+<body>
+
+  <div id="main">
+
+       <div id="topNav">         
+            <%= link_to "Home", :root %> |
+            <%= link_to "Cart (#{cart_count})", carts_path %>
+       </div>
+
+       <% if notice %>
+            <p id="notice"><%= notice %></p>
+       <% end %>
+
+       <%= yield %>
+
+  </div>
+
+</body>
+</html>

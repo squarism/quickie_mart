@@ -1,0 +1,8 @@
+development:
+  adapter: mysql2
+  host: localhost
+  username: store
+  password: change_me
+  database: store_development
+  pool: 5
+  timeout: 5000

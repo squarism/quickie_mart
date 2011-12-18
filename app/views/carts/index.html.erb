@@ -1,0 +1,20 @@
+<h1>Shopping Cart</h1>
+
+<table>
+  <th>Item</th>
+  <th>Quantity</th>
+  
+  <% if @cart %>
+    <% @cart.items.each do |item| %>
+    <tr>
+      <td><%= item.product.name %></td>
+      <td>x<%= item.quantity %></td>
+    </tr>
+
+    <% end %>
+  <% end %>
+
+</table>
+
+<%= link_to "Clear Cart", 'carts/clear' %> | <%= link_to "Checkout" %>
+
