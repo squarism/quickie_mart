@@ -6,6 +6,9 @@ A 20 minute Rails demo that I used as part of a "What is Ruby on Rails?" talk.  
 These steps are what it took to build this app.  You can checkout this app as a final product but this is intended to walk you through building this project, not starting with it.  All you should need is a Ruby/Rails dev environment and this README.
 
 
+### You do not need to type all this
+Again.  This repo is the final result.  Below are the steps to do it yourself from scratch.  It's a Rails 3 tutorial.
+
     A ecommerce store in under 20 minutes with explanations and iterative demonstration.
 
     # specific to my setup with RVM, if you don't have RVM or know what it is, forget about this step
